@@ -26,7 +26,7 @@ app.use(async (req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.json("Lamba function is running!");
+  res.json("Lambda function is running!");
 });
 
 export const handler = serverless(app);
