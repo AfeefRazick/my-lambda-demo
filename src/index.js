@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json("Lamba function is running!");
+  res.json("Lambda function is running!");
 });
 
 app.listen(5000, () => {
